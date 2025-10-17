@@ -1,74 +1,93 @@
-# 🌐 **Elevvo Data Analytics Internship**
-
-## 🧭 **Overview**
-This repository documents the work completed during the virtual *Data Analytics Internship*.  
-I have completed all *5 foundational tasks*, demonstrating core competencies in *SQL-based business intelligence*, *customer segmentation*, and *data preparation techniques*.
+## Elevvo Data Analytics Virtual Internship – Completed Projects
 
 ---
 
-## 📊 **Task 1: Sales Performance Dashboard (Excel)**
-- Analyzed sales data and applied *advanced formatting for clarity*.  
-- Generated summarized metrics using *Pivot Tables*, including:
-  - *Total Revenue*
-  - *Units Sold*
-  - *Monthly Trend Analysis*
-- Built a *dynamic reporting interface* with charts and *Slicers* for interactive filtering by region.  
-- Calculated *Year-over-Year (YoY)* and *Month-over-Month (MoM)* performance changes.
+## Task 1: Sales Performance Dashboard (Excel)
+* Objective: Build an interactive Excel dashboard to analyze sales performance and identify trends  
+* Dataset: Superstore Sales Dataset (Kaggle)  
+* What I Did:  
+  * Cleaned and organized raw transactional data (orders, dates, regions, categories, revenue) using formatting and formulas  
+  * Created pivot tables summarizing total revenue and order counts by month  
+  * Designed a dashboard sheet showing:  
+    * revenue trends  
+    * Regional and category-based performance  
+    * KPIs for total sales and MoM & YoY growth 
+  * Added slicers to filter by region, Segment, and product category  
+  * Ensured a clean, dynamic dashboard layout optimized for readability  
+* Tools & Skills: Excel, Data Cleaning, Pivot Tables, Dashboard Design, KPI Tracking  
 
 ---
 
-## 🚢 **Task 2: Exploratory Data Analysis (EDA) on Titanic Dataset**
-- Cleaned and prepared the raw dataset by handling *missing values* and adjusting *data types*.  
-- Conducted *statistical analysis* to reveal survival rates based on:
-  - *Gender*
-  - *Passenger Class*
-- Used *Python (Pandas, Matplotlib, Seaborn)* to create *bar plots* and *heatmaps*, visualizing key survival patterns and correlations.
+## Task 2: Exploratory Data Analysis on Titanic Dataset (Python)
+* Objective: Analyze passenger data to understand survival patterns  
+* Dataset: Titanic: Machine Learning from Disaster (Kaggle)  
+* What I Did:  
+  * Cleaned the dataset by handling missing values and converting data types  
+  * Generated summary statistics and explored categorical variables (e.g., Gender, Class, Embarkation)  
+  * Visualized survival patterns using Seaborn bar plots, heatmaps, and pairplots  
+  * Found clear insights, such as higher survival rates for females and first-class passengers  
+* Tools & Skills: Python, Pandas, Seaborn, Matplotlib, Data Cleaning, EDA, Visualization  
 
 ---
 
-## 🎯 **Task 3: Customer Segmentation using RFM Analysis**
-- Developed and executed a *multi-step RFM (Recency, Frequency, Monetary)* segmentation model using *SQL*.  
-- Calculated customer metrics:
-  - *Recency* – days since last purchase  
-  - *Frequency* – number of transactions  
-  - *Monetary* – total spending  
-- Used the *NTILE()* window function to assign R, F, and M scores, generating combined *RFM Scores* (e.g., `555` for Champions).  
-- Identified *high-value customer segments* for *targeted marketing strategies*.
+## Task 3: Customer Segmentation Using RFM Analysis (Python)
+* Objective: Segment customers based on Recency, Frequency, and Monetary value  
+* Dataset: Online Retail Dataset (UCI)  
+* What I Did:  
+  * Calculated key metrics for each customer:  
+    * Recency – days since last purchase  
+    * Frequency – number of transactions  
+    * Monetary – total spending amount  
+  * Assigned RFM scores and grouped customers into behavior-based segments  
+  * Visualized customer segments using heatmaps and bar charts  
+  * Suggested marketing strategies for each segment (e.g., re-engagement campaigns for inactive customers)  
+* Tools & Skills: Python, Pandas, Feature Engineering, Customer Analytics, Segmentation, Data Visualization  
 
 ---
 
-## 🧹 **Task 4: Data Cleaning and Insight Generation (Survey Data)**
-- Performed *deep cleaning* on complex survey data, including text standardization and handling inconsistent entries.  
-- Applied *label encoding* and *data mapping* to prepare categorical responses for quantitative analysis.  
-- Extracted and summarized the *Top 5 Actionable Insights* regarding respondent behavior and preferences.  
-- Designed a *summary dashboard* highlighting key behavioral trends.
+## Task 4: Data Cleaning and Insight Generation from Survey Data (Python)
+* Objective: Clean and analyze a multi-year Kaggle Data Science Survey dataset to extract insights  
+* Dataset: Kaggle Data Science Survey (2017–2021)  
+* What I Did:  
+  * Removed duplicates, handled missing values, and standardized inconsistent formatting  
+  * Applied label encoding to categorical variables with limited unique values  
+  * Analyzed respondent demographics, professional experience, and tool usage trends  
+  * Created multiple charts using Seaborn and Matplotlib, showing:  
+    * Distribution of age groups  
+    * Top countries of respondents  
+    * Top job titles  
+    * Experience distribution  
+    * Top countries of Python users  
+  * Summarized top 5 insights highlighting geographic and professional trends in data science  
+* Tools & Skills: Python, Pandas, Seaborn, Matplotlib, Data Cleaning, Encoding, Insight Extraction  
 
 ---
 
-## 🗄️ **Task 5: SQL-Based Analysis of Product Sales (Chinook Database)**
-- Executed *advanced SQL queries* with multiple *JOINs* to connect transactional, product, and customer data.  
-- Delivered insights on:
-  - *Top-selling products* (by revenue and quantity)  
-  - *Geographic Sales Analysis* (by country and city)  
-  - *Monthly Revenue Performance*
-- Applied the *RANK()* window function to segment and identify *top-performing products* in each market.
+## Task 5: SQL-Based Analysis of Product Sales (SQL)
+* Objective: Perform in-depth sales analysis using SQL queries  
+* Dataset: Chinook Database (Kaggle)  
+* What I Did:  
+  * Queried sales and customer tables to extract key performance metrics  
+  * Wrote advanced SQL queries to identify:  
+    * Top-selling tracks and genres  
+    * Total revenue by country and city  
+    * Monthly sales performance  
+    * Highest and lowest spending customers  
+  * Implemented window functions (RANK, NTILE) for RFM-style ranking of customers  
+  * Analyzed artist and genre-level performance for business insights  
+* Tools & Skills: SQL (PostgreSQL/SQLite), JOINs, Aggregations, Window Functions, Business Analytics  
 
 ---
 
-## 🧩 **Key Skills Demonstrated**
-- *Data Cleaning & Preparation* (Excel, Python, SQL)  
-- *Business Intelligence Dashboards* (Excel Pivot Tables, Visualization)  
-- *Customer Segmentation & RFM Modeling*  
-- *SQL Querying & Window Functions*  
-- *Exploratory Data Analysis & Visualization* (Matplotlib, Seaborn)  
-- *Actionable Insights Communication*
+## Key Skills & Tools
+* Excel: Cleaning & Organizing, Dashboards, Pivot Tables, Slicers, KPI Metrics
+* Python: Pandas, NumPy, Seaborn, Matplotlib  
+* SQL: Queries, Aggregations, JOINs, Window Functions  
+* Analytics: Data Cleaning, EDA, Segmentation, Visualization, Business Reporting  
 
 ---
 
-## 🏁 **Outcome**
-This capstone project showcases the *full analytical workflow* from raw data to actionable insights, demonstrating the ability to:
-- Extract, clean, and transform real-world datasets.  
-- Derive *data-driven business recommendations*.  
-- Communicate insights through *visualizations and dashboards*.
-
----
+## Author
+Abdelrahman Mohamed  
+Data Analytics Intern @ Elevvo  
+[LinkedIn](https://www.linkedin.com/in/abdelrahman-mohamed-abdo-785b16322/)(#) | [GitHub](https://github.com/AbdelrahmanMohamedAbdo)

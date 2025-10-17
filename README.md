@@ -1,4 +1,4 @@
-# 🌐 ** Elevvo Data Analytics Internship**
+# 🌐 **Elevvo Data Analytics Internship**
 
 ## 🧭 **Overview**
 This repository documents the work completed during the virtual *Data Analytics Internship*.  

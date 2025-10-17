@@ -90,5 +90,5 @@
 ## Author
 Abdelrahman Mohamed  
 Data Analytics Intern @ Elevvo  
-[LinkedIn](https://www.linkedin.com/in/abdelrahman-mohamed-9015b533a/)
-[Linkedin](https://www.linkedin.com/in/abdelrahman-mohamed-abdo-785b16322)
+Projects [LinkedIn](https://www.linkedin.com/in/abdelrahman-mohamed-9015b533a/)
+Main [Linkedin](https://www.linkedin.com/in/abdelrahman-mohamed-abdo-785b16322)
